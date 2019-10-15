@@ -1,0 +1,137 @@
+html, body{
+  background-color: #132660;
+}
+
+svg.logo{
+  display: block;
+  margin: 6% auto 2% auto;
+}
+
+.msg-status{
+  font-size: 24px;
+  text-align: center;
+  margin: 10% auto;
+  color: white;
+}
+
+.msg-liste, .msg-open_wrapper{
+  width: 90%;
+  max-width: 600px;  
+}
+
+.msg-liste, .msg-open{
+  border-radius: 4px;
+  background-color: white;
+}
+
+.msg-liste{
+  padding: 1% 2%;
+  margin: 15% auto;
+}
+
+.msg-item{
+  margin: 5% auto;
+}
+
+.msg-item_wrapper{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.msg-item-svg_wrapper svg, .msg-open-svg_wrapper svg{
+  width: 100%;
+  height: 100%;
+}
+
+.msg-item-svg_wrapper{
+  width: 50px;
+  margin: auto 5% auto 0%;
+}
+.msg-item_content{
+  display: block;
+  width: 80%;
+}
+
+.msg-item_content div{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.msg-item_content div:nth-of-type(1){
+  font-size: 18px;
+}
+
+/* message ouvert */
+.msg-open_wrapper{
+  margin: calc(15% - 48px) auto;
+}
+.msg-open{
+  margin: auto;
+  padding: 3%;
+}
+
+.msg-header{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.msg-header div{
+  font-weight: bold;
+}
+
+.msg-open-svg_wrapper{
+  width: 40px;
+  margin: auto 5% auto 0;
+}
+
+.msg-open p:nth-of-type(1){
+  width: 60%;
+  font-size: 24px;
+  margin-top: 2%;
+}
+
+@media screen and (max-width : 450px){
+
+  .msg-item-svg_wrapper{
+    border: none;
+    width: 12%;
+    margin: auto 5% auto 1%;
+  }
+
+  .msg-liste{
+    width: 90%;
+    font-size: 12px;
+  }
+
+  .msg-item_content{
+    width: inherit;
+    width: 80%;
+  }
+
+  .msg-item_content div{
+    max-width: 250px;
+  }
+
+  .msg-item_content div:nth-of-type(1){
+    font-size: 14px;
+  }
+
+  .msg-item-svg_wrapper svg{
+    width: 95%;
+    height: 95%;
+  }
+
+  /* message open */
+
+  .msg-open{
+    font-size: 14px;
+  }
+
+  .msg-open p:nth-of-type(1){
+    width: 60%;
+    font-size: 20px;
+  }
+  
+}
