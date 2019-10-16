@@ -105,6 +105,10 @@ svg.logo{
     font-size: 12px;
   }
 
+  .msg-liste svg{
+    font-size: 20px;
+  }
+
   .msg-item_content{
     width: inherit;
     width: 80%;
@@ -132,6 +136,10 @@ svg.logo{
   .msg-open p:nth-of-type(1){
     width: 60%;
     font-size: 20px;
+  }
+
+  .msg-open svg {
+    font-size: 16px;
   }
   
 }
