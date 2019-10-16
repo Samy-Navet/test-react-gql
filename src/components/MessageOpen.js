@@ -36,8 +36,8 @@ const MessageOpen = (props) => {
     return(    
         <div className="msg-open_wrapper">
             <StyledLink to="/">
-            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M31.41 32.5901L22.25 23.4101L31.41 14.2301L28.59 11.4101L16.59 23.4101L28.59 35.4101L31.41 32.5901Z" fill="white"/>
+            <svg className="msg-return" width="16" height="25" viewBox="0 0 16 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.41 21.5901L6.25 12.4101L15.41 3.23006L12.59 0.410064L0.590003 12.4101L12.59 24.4101L15.41 21.5901Z" fill="white"/>
             </svg>
             </StyledLink>
             <div className="msg-open">

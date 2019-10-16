@@ -92,6 +92,10 @@ svg.logo{
   margin-top: 2%;
 }
 
+.msg-return{
+  margin: 2% auto;
+}
+
 @media screen and (max-width : 450px){
 
   .msg-item-svg_wrapper{
